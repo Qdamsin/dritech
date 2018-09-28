@@ -1,0 +1,402 @@
+
+.navbar-nav>li>a {
+  padding-top: 17px;
+  font-family: Circular Std;
+  padding-bottom: 10px;
+  line-height: 20px;
+  color: #1C45A4;;
+  font-size: 15px;
+  font-style: solid;
+  background-color: transparent;
+
+}
+
+.icon-bar{
+  background-color:rgb(75, 208, 218);
+}
+.navbar-nav>li>a:hover{
+  background-color: transparent !important;
+  box-sizing: inherit;
+border-bottom: groove;
+  
+}
+
+#mygif{
+  margin-top: 5em;
+}
+#software{
+  color: #1C45A4;
+  font-family: Circular Std;
+  font-size: 40px;
+  margin-top: 1.5em;
+}
+#line{
+  width: 200px;
+  height: 3px;
+  background-color:rgb(75, 208, 218);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+#creatingbeautiful{
+  font-family: PT Serif;
+  font-size: 20px;
+  color: #292929;
+}
+button{
+  font-family: PT Serif;
+  background-color:rgb(75, 208, 218);
+  text-align: center;
+  color: white;
+  transition-duration: 0.4s;
+  
+}
+#startbutton{
+  border-radius: 40px;
+  font-size: 23px;
+  width: 89px;
+  margin-top: 1em;
+  margin-left: 4em;
+  margin-bottom: -1em;
+}
+#startbutton:hover{
+  background-color: #1C45A4;
+  color: white;   
+}
+
+#getquotebutton{
+  border-radius: 30px;
+  font-size: 18px;
+  margin-left: 5em;
+  margin-bottom: 2em;
+}
+
+#getquotebutton:hover{
+  opacity: 1;
+  color: white;}
+
+  #subscribebutton {
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-bottom: 2em;
+    margin-left: 10em;
+  }
+  #subscribebutton:hover {
+    background-color: #1C45A4;
+    color: white;}
+/*services start*/
+
+/*services ending*/
+
+
+#servicessection{
+  background-color: rgb(243, 249, 250);
+  margin-top: 4em;
+  }
+.heading{
+  color: #1C45A4;
+  margin-top: 1em;
+  font-family: Circular Std;
+}
+
+.servicestatment{
+  font-family: Pt serif;
+  font-size: 20px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  color: black
+}
+
+#services{
+  margin-top: 1em;
+  margin-bottom: 4em;
+  text-align: center;
+
+}
+.thumbnail{
+  height: auto;
+  justify-content: center;
+}
+.glyphicon{
+  margin-top: 0.5em;
+  font-size: 35px;
+  color:  #1C45A4;
+}
+.serviceh3{
+  color: #292929;
+  font-family: PT Serif;
+  font-size: 20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.servicep{
+  color: #292929;
+  font-family: PT Serif;
+  font-size: 15px;
+  margin-bottom: 1.5em;
+  
+}
+.learnmore{
+  background-color: #1C45A4;
+ margin-bottom: 2.5em;
+  height: 40px;
+  margin-top: -2em;  
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.learnmore a{
+  color: white;
+  font-size: 20px;
+  font-family: PT Serif;
+  text-align: center;
+  text-justify: center;
+}
+
+.learnmore a:hover{
+  text-decoration: none;
+}
+.learnmore span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.25s;
+}
+
+.learnmore span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.learnmore:hover span {
+  padding-right: 25px;
+}
+
+.learnmore:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#getquote{
+  background-color: #1C45A4;
+  height: auto;
+  color: white;
+  padding-top: 2.5em;
+}
+
+.form-control {
+  width: 75%;
+  height: 40px;
+  margin-left: 5em;
+}
+#requestfreequote {
+  margin-top: 7em ;
+}
+#requestfreequote h3 {
+  font-size: 40px;
+  color: white;
+  font-family: Circular Std;
+}
+#requestfreequote p{
+  font-size: 15px;
+  color: white;
+  font-family: Pt Serif;
+}
+#getafreequote h4{
+  font-size: 25px;
+  color: white;
+  font-family: Circular Std;
+  text-align: center;
+}
+
+
+/* the testimonial slider*/
+.main-timeline{
+  position: relative;
+  transition: all 0.4s ease 0s;
+}
+.main-timeline:before{
+  content: "";
+  width: 3px;
+  height: 100%;
+  background: #bfbfbf;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+.main-timeline .timeline{
+  position: relative;
+}
+.main-timeline .timeline:before,
+.main-timeline .timeline:after{
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.main-timeline .timeline-icon{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #0a90d7;
+  position: absolute;
+  top: 0;
+  left: 3px;
+  right: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main-timeline .timeline-content{
+  width: 45%;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: right;
+  -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+.main-timeline .title{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  padding: 12px 33px;
+  background: #1C45A4;
+  border-radius: 5px;
+}
+
+.main-timeline .description{
+  font-size: 18px;
+  color: black;
+  font-family: Pt Serif;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 1em;
+  
+}
+.main-timeline .timeline-content.right{
+  float: right;
+  text-align: left;
+}
+@media only screen and (max-width: 767px){
+  .main-timeline:before{
+      left: 0;
+  }
+  .main-timeline .timeline-icon{
+      left: -8px;
+      margin: 0;
+  }
+  .main-timeline .timeline-content{
+      width: 90%;
+      float: right;
+  }
+}
+License Terms
+ 
+/*end testimonial*/
+/*Our services flex*/
+#news{
+  border-color: aqua;
+}
+#news a{
+  font-family: Pt serif;
+  font-size: 15px;
+  text-justify: center;
+  text-align: center;
+  color: black;
+}
+#news a:hover{
+
+ opacity: 0.4;
+    filter: alpha(opacity=40);
+  text-decoration: none;
+  }
+  #news a p{
+    margin-top: 1em;
+  }
+/*end of our services flex*/
+subscribe h3{
+  color: black;
+  font-size: Pt serif;
+  font-size: 30px;
+  
+}
+subscribe p{
+  color: black;
+  font-size: Pt serif;
+  font-size: 15px;
+}
+
+#footer{
+  
+  padding-top:5em;
+  text-justify: center;
+  background-color: rgb(212, 212, 212);
+
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+}
+#footer h3{
+  color: black;;
+  font-family: Pt Serif;
+  font-size: 25px;
+}
+#footer h5{
+  color: black;;
+  font-family: Pt Serif;
+  font-size: 20px;
+}
+#footer a{
+color: rgb(43, 43, 43);
+
+}
+#footer a:hover{
+  color: black;
+  text-decoration: none;
+  text-decoration-color: black;
+  }
+ 
+  
+
+/*hover effect*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
